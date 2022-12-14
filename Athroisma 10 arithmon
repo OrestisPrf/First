@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+    int num[10];
+    int i;
+    int sum=0;
+    printf("Dwse arithmous:");
+     for (i=0;i<10;i++)
+      {
+          scanf("%d",&num[i]);
+          sum=num[i]+sum;
+      }
+    printf("%d",sum);
+}
