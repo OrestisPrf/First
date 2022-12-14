@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+    int num[10];
+    int i;
+    int p=1;
+    printf("Dwse arithmous:");
+     for (i=0;i<10;i++)
+      {
+          scanf("%d",&num[i]);
+          p=num[i]*p;
+      }
+    printf("%d",p);
+}
