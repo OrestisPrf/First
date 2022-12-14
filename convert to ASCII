@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main()
+{
+   char i;
+   printf("Dwse ena xarakthra");
+   scanf("%c",&i);
+   printf("%d",i);
+   return 0;
+}
