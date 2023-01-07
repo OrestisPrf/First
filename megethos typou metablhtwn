@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+
+int main() {
+  int a;
+  float b;
+  char c;
+
+  printf("Size of integer data type in bytes: %d\n", (int)sizeof(int));
+  printf("Size of float data type in bytes: %d\n", (int)sizeof(float));
+  printf("Size of character data type in bytes: %d\n", (int)sizeof(char));
+
+  return 0;
+}
