@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int a , b , c ;
+    printf("Give three numbers :\n");
+    scanf("%d%d%d",&a,&b,&c);
+    if ((a > b ) && (a > c))
+    {
+        printf("To noumero %d einai meggalutero",a);
+    }
+    else if ((a<b) && (b>c))
+    {
+        printf("To noumero %d einai megalutero",b);
+    }
+    else 
+    {
+        printf("To megalutero einai to %d",c);
+    }
+    return 0;
+}
+
