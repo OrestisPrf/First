@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+   float k = 273.15 ;
+   float c ;
+   printf("Dwse ena bathmo C :\n");
+   scanf("%f",&c);
+   float sum = c + k ;
+   printf("O bathmos thermokrasias se kelvin einai :%g",sum);
+   return 0 ;
+}
+   
