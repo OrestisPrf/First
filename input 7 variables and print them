@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int num[7] , i ;
+    for (i=0;i<7;i++)
+    {
+        printf("Print 7 numbers :%d\n",i+1);
+        scanf("%d",&num[i]);
+        
+    }
+    for (i=0;i<7;i++)
+    {
+        printf("variable  %d:%d\n",num[i],i+1);
+    }
+    return 0;
+}
