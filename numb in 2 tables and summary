@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main()
+{
+    int num[7] , i , ar[7];
+   int sum = 0 ;
+   printf("dwse 7 arithmous:");
+   for (i=0;i<7;i++)
+   {
+       scanf("%d",&num[i]);
+       ar[i]=num[i];
+       sum+= num[i] ;
+   }
+    
+    printf("Original table : ");
+    for (i=0;i<7;i++)
+    { 
+        printf("%d",num[i]);
+    }
+   
+    
+    printf("Copied table :");
+    for (i=0;i<7;i++)
+    {
+        printf("%d",ar[i]);
+        sum = ar[i] + sum ;
+    }
+    
+
+    printf("Summary is %d",sum);
+   
+   return 0 ;
+}
